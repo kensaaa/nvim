@@ -60,7 +60,7 @@ call plug#end()
 
 
 "TECLA LIDER
-let mapleader = " "
+let mapleader =" "
 
 
 "teclas principales
@@ -75,12 +75,30 @@ noremap <left> <nop>
 noremap <right> <nop>
 
 
+"completar pararentesis
+inoremap ( ()<Esc>i
+inoremap { {}<Esc>i
+inoremap ' ''<Esc>i
+inoremap [ []<Esc>i
+inoremap < <><Esc>i
+
 "Redimencionar el buffer 
 nnoremap <silent> <right> :vertical resize +5<CR>
 nnoremap <silent> <left> :vertical resize -5<CR>
 nnoremap <silent> <up> :resize +5<CR>
 nnoremap <silent> <down> :resize -5<CR>e
 
+"Moverse entre buffer
+nnoremap <leader>l :bnext<CR>
+nnoremap <leader>h :bprevious<CR>
+nnoremap <leader>q :bdelete<CR>
+
+"Split
+nnoremap <leader>vs :vsp<CR>
+nnoremap <leader>sp :sp<CR>
+
+"Crear una nueva ventana
+nnoremap <leader>t :tabe<CR>
 
 "-----------------------------------------------------------------------------------------------------------------------
 
