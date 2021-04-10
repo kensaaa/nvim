@@ -40,3 +40,9 @@ nnoremap <leader>hs :split<CR>
 
 "Crear una nueva ventana
 nnoremap <leader>t :tabe<CR>
+
+"Terminal
+vnoremap <c-t> :split<CR>:ter<CR>
+nnoremap <c-t> :split<CR>:ter<CR>
+ 
+nnoremap / /a<DEL>

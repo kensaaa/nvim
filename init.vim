@@ -8,21 +8,32 @@ call plug#begin('~/.local/share/nvim/plugged')
 " themes
 Plug 'crusoexia/vim-monokai'              
 Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 
 " visual
 Plug 'yggdroot/indentline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'lilydjwg/colorizer'
 
 "Code Modification
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree'                
 Plug 'neoclide/coc.nvim'
+Plug 'kabbamine/vcoolor.vim'
 
 Plug 'rstacruz/sparkup'
 
+"creacion de plantillas
 Plug 'Sirver/ultisnips'
 Plug 'honza/vim-snippets'
+
+"Git integration
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 
 call plug#end()
 
@@ -31,9 +42,9 @@ call plug#end()
 "CONFIGURACION DEL TEMA DE NEOVIM
 set termguicolors
 set background=dark
-let g:despacio_Twilight=1
 let g:python_highlight_all = 1
-colorscheme onedark
+let g:gruvbox_contrast_dark="hard"
+colorscheme gruvbox
 
 
 
@@ -46,6 +57,8 @@ source ~/.config/nvim/vim-settings/keys.vim
 source ~/.config/nvim/plug-settings/ultiSnip.vim
 source ~/.config/nvim/plug-settings/coc.vim
 source ~/.config/nvim/plug-settings/nerdtree.vim
-
+source ~/.config/nvim/plug-settings/devicons.vim
+source ~/.config/nvim/plug-settings/signify.vim
+source ~/.config/nvim/plug-settings/airline.vim
 
 "----------------------------------------------------------------------------------------------------------------------
