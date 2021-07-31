@@ -19,12 +19,6 @@ noremap <right> <nop>
 nnoremap <c-j> 10j
 nnoremap <c-k> 10k
 
-"completar pararentesis
-inoremap ( ()<Esc>i
-inoremap { {}<Esc>i
-inoremap ' ''<Esc>i
-inoremap [ []<Esc>i
-inoremap < <><Esc>i
 
 "Redimencionar el buffer 
 "nnoremap <silent> <right> :vertical resize +5<CR>
@@ -35,18 +29,18 @@ inoremap < <><Esc>i
 "Moverse entre buffer
 nnoremap <leader>l :bnext<CR>
 nnoremap <leader>' :bprevious<CR>
-nnoremap <leader>q :bdelete<CR>
+nnoremap <leader>b :bdelete<CR>
 
 "Split
 nnoremap <leader>. :vsplit<CR>
 nnoremap <leader>> :split<CR>
 
-"Crear una nueva ventana
-nnoremap <leader>t :tabe<CR>
+"identado mejorado
+vnoremap < <gv
+vnoremap > >gv
 
-"Terminal
-"vnoremap <c-t> :split<CR>:ter<CR>
-"nnoremap <c-t> :split<CR>:ter<CR>
+map <Enter> o<ESC>
+
 
 "Para salir buscador
 nnoremap / /a<DEL>

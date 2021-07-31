@@ -1,10 +1,7 @@
 source ~/.config/nvim/vim-settings/settings.vim
-
-"----------------------------------------------------------------------------------------------------------------------
+"#######################################################################################################################
 
 call plug#begin('~/.local/share/nvim/plugged')
-
-
 " themes
 Plug 'crusoexia/vim-monokai'              
 Plug 'joshdick/onedark.vim'
@@ -23,8 +20,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'kabbamine/vcoolor.vim'
 
-Plug 'rstacruz/sparkup'
-
 "creacion de plantillas
 Plug 'Sirver/ultisnips'
 Plug 'honza/vim-snippets'
@@ -35,16 +30,24 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
+Plug 'chun-yang/auto-pairs'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
-"-----------------------------------------------------------------------------------------------------------------------
+
+"#######################################################################################################################
 
 "CONFIGURACION DEL TEMA DE NEOVIM
+
 set termguicolors
 set background=dark
 let g:python_highlight_all = 1
 let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
+
+
 
 
 
@@ -60,5 +63,3 @@ source ~/.config/nvim/plug-settings/nerdtree.vim
 source ~/.config/nvim/plug-settings/devicons.vim
 source ~/.config/nvim/plug-settings/signify.vim
 source ~/.config/nvim/plug-settings/airline.vim
-
-"----------------------------------------------------------------------------------------------------------------------
