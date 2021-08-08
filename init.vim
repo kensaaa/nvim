@@ -1,5 +1,6 @@
 source ~/.config/nvim/vim-settings/settings.vim
 "#######################################################################################################################
+"Prueba shh en ubuntu
 
 call plug#begin('~/.local/share/nvim/plugged')
 " themes
