@@ -6,6 +6,12 @@ let mapleader =" "
 
 "teclas principales
 nnoremap <leader>, :w<CR>
+nnoremap <leader>; :q<CR>
+nnoremap <leader>l :Files<CR>
+
+
+
+
 nnoremap <F5> :source ~/.config/nvim/init.vim<CR>
 
 
@@ -16,20 +22,20 @@ noremap <left> <nop>
 noremap <right> <nop>
 
 "navegacion
-nnoremap <c-j> 10j
-nnoremap <c-k> 10k
+"nnoremap <c-j> 10j
+"nnoremap <c-k> 10k
 
 
 "Redimencionar el buffer 
-"nnoremap <silent> <right> :vertical resize +5<CR>
-"nnoremap <silent> <left> :vertical resize -5<CR>
-"nnoremap <silent> <up> :resize +5<CR>
-"nnoremap <silent> <down> :resize -5<CR>e
+nnoremap <silent> <right> :vertical resize +5<CR>
+nnoremap <silent> <left> :vertical resize -5<CR>
+nnoremap <silent> <up> :resize +5<CR>
+nnoremap <silent> <down> :resize -5<CR>e
 
 "Moverse entre buffer
-nnoremap <leader>l :bnext<CR>
-nnoremap <leader>' :bprevious<CR>
-nnoremap <leader>b :bdelete<CR>
+nnoremap <s-l> :bnext<CR>
+nnoremap <s-h> :bprevious<CR>
+nnoremap <s-b> :bdelete<CR>
 
 "Split
 nnoremap <leader>. :vsplit<CR>

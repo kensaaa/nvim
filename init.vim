@@ -17,7 +17,7 @@ Plug 'lilydjwg/colorizer'
 "Code Modification
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree'                
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kabbamine/vcoolor.vim'
 
 "creacion de plantillas
