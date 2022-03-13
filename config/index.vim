@@ -7,6 +7,7 @@ source ~/.config/nvim/config/plugins/devicons.vim
 source ~/.config/nvim/config/plugins/emmet.vim
 source ~/.config/nvim/config/plugins/ultisnips.vim
 source ~/.config/nvim/config/plugins/fzf.vim
+source ~/.config/nvim/config/plugins/coc.vim
 
 
 
