@@ -31,6 +31,7 @@ Plug 'mhinz/vim-signify'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'easymotion/vim-easymotion'
 
 "conquer of Completation
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
