@@ -19,3 +19,4 @@ set splitright
 set foldmethod=manual
 set termguicolors
 set colorcolumn=120
+let g:netrw_dirhistmax = 0
