@@ -34,6 +34,7 @@ Plug 'jiangmiao/auto-pairs'
 
 "conquer of Completation
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
