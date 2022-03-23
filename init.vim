@@ -35,7 +35,6 @@ Plug 'easymotion/vim-easymotion'
 
 "conquer of Completation
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'honza/vim-snippets'
 
 call plug#end()
 
