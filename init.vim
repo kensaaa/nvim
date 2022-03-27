@@ -12,7 +12,7 @@ let mapleader = ' '
 call plug#begin('~/.local/share/nvim/plugged')
 
 "Visual
-Plug 'morhetz/gruvbox'
+Plug 'tanvirtin/monokai.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
@@ -41,9 +41,9 @@ call plug#end()
 
 set termguicolors
 set background=dark
-let g:gruvbox_italic=1
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+colorscheme monokai_pro
+
+
 
 
 
