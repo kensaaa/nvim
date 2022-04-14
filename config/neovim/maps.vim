@@ -4,7 +4,7 @@ nnoremap <leader>re :source ~/.config/nvim/init.vim<CR>
 noremap <leader>w :w<CR>
 noremap <leader>q :q<CR>
 noremap <leader>Q :q!<CR>
-nnoremap <leader>tt :b #<CR>
+noremap <s-e> :b #<CR>
 
 "add linea de espacio abajo
 map <Enter> o<ESC>

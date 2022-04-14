@@ -1,1 +1,1 @@
-nmap <leader>s  <Plug>(easymotion-overwin-f2)
+nmap <leader>/  <Plug>(easymotion-overwin-f2)

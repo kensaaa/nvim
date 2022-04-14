@@ -1,6 +1,6 @@
 syntax on 
 
-set clipboard=unnamedplus 
+set clipboard=unnamedplus
 set number 
 set rnu 
 set encoding=utf-8 

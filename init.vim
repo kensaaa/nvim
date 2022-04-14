@@ -9,10 +9,10 @@
 let mapleader = ' '
 
 
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 "Visual
-Plug 'tanvirtin/monokai.nvim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
@@ -41,13 +41,13 @@ call plug#end()
 
 set termguicolors
 set background=dark
-colorscheme monokai_pro
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
 
 
 
-
-
-
+" habilita la transparencia del terminal
+hi normal guibg=000000 
 
 
 source ~/.config/nvim/config/index.vim
