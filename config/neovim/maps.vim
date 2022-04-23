@@ -7,7 +7,7 @@ noremap <leader>Q :q!<CR>
 noremap <s-e> :b #<CR>
 
 "add linea de espacio abajo
-map <Enter> o<ESC>
+" map <Enter> o<ESC>
 
 "poder moverme en modo insert
 inoremap <C-b> <C-o>h
