@@ -1,3 +1,7 @@
+"servidores de lenguajes
+let g:coc_global_extensions = [ 'coc-css', 'coc-html', 'coc-snippets', 'coc-tsserver', 'coc-sh', ]
+
+
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
@@ -35,3 +39,16 @@ endfunction
 
 "cunado estoy encima de una variblae resalta todas sus referencias
 " autocmd CursorHold * silent call CocActionAsync('highlight')
+
+
+
+"me abre un cuadro para poder importar
+xmap <silent> <leader>a  <Plug>(coc-codeaction-selected)
+nmap <silent> <leader>a  <Plug>(coc-codeaction-selected)
+
+
+
+" Remap keys for applying codeAction to the current line.
+" nmap <leader>ac  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+" nmap <leader>qf  <Plug>(coc-fix-current)
