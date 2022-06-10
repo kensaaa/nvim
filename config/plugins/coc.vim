@@ -42,9 +42,17 @@ endfunction
 
 
 
-"me abre un cuadro para poder importar
+"me abre un cuadro para poder importar o aciones que puedo hacer
 xmap <silent> <leader>a  <Plug>(coc-codeaction-selected)
 nmap <silent> <leader>a  <Plug>(coc-codeaction-selected)
+
+
+"me muestra todos los errores en espacio de trabajo
+nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>
+
+"esto me sirve para navegar entre los errores
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 
 
