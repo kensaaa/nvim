@@ -4,70 +4,13 @@ const ${1:nameFuncion} = ($2) => {
 }
 endsnippet
 
+snippet ef "Funcion Flecha Export"
+export const ${1:nameFuncion} = ($2) => {
+    $3	
+}
+endsnippet
+
 snippet cl "Imprimir en consola"
 console.log($1)
-endsnippet
-
-####
-
-snippet imr "React: importacion React"
-import React from 'react'
-endsnippet
-
-snippet imp "React: importacion de propTypes"
-import PropTypes from 'prop-types'
-endsnippet
-
-
-snippet describe "React: describe contenedor de test"
-describe('Prueba en $1', () => {
-
-    test('debe $2', () => {
-        $3
-    })
-})
-endsnippet
-
-snippet test "React: estructua de test"
-test('debe $1', () => {
-    $2
-})
-endsnippet
-
-
-snippet raf "React: estructura del componente"
-import React from 'react'
-
-const `!p snip.rv = snip.basename` = ($1) => {
-
-    return (
-        <>
-            <h1>`!p snip.rv = snip.basename`</h1>
-        </>
-    )
-}
-
-export default `!p snip.rv = snip.basename`
-endsnippet
-
-snippet ue "React: Hook useEffect" 
-useEffect( () => {
-    $1
-},[$2])
-endsnippet
-
-
-snippet uef "React: Hook useEffect with Clean" 
-useEffect( () => {
-    $1
-    
-    return () => {
-        $2
-    }
-},[$2])
-endsnippet
-
-snippet pr "Pruebas de snippets" 
-`!p snip.rv = snip.basename`
 endsnippet
 

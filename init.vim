@@ -32,6 +32,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
+" Plug 'iamcco/c.c-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 
 "conquer of Completation
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

@@ -20,8 +20,8 @@ nnoremap <silent> <up> :resize +5<CR>
 nnoremap <silent> <down> :resize -5<CR>e
 
 "split
-nnoremap <leader>sp :vsplit<CR>
-nnoremap <leader>sh :split<CR>
+nnoremap <leader>sp :vsplit #<CR>
+nnoremap <leader>sh :split #<CR>
 
 
 "mejor identado

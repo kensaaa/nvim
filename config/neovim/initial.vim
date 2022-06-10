@@ -1,5 +1,6 @@
 syntax on 
 
+set mouse=a
 set clipboard=unnamedplus
 set number 
 set rnu 
@@ -13,7 +14,7 @@ set sw=4
 set expandtab
 set smartindent
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 set splitbelow
 set splitright
 set foldmethod=manual
