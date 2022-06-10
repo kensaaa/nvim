@@ -1,2 +1,5 @@
-let g:github_user='kensaaa'
-let g:gist_token='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'
+let g:gist_clip_command = 'xclip -selection clipboard'
+
+let g:github_user=$GIST_USER
+let g:gist_token=$GIST_TOKEN
+
