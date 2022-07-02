@@ -1,3 +1,32 @@
 snippet cl "TypeScript: imprimir por consola"
 console.log($1)
 endsnippet
+
+snippet ef "TypeScript: funcion de flecha exportada "
+export const $1 = ($2)$3 => {
+    $4
+}
+endsnippet
+
+snippet ff "TypeScript: funcion de flecha  "
+const $1 = ($2)$3 => {
+    $4
+}
+endsnippet
+
+
+
+snippet describe "React: describe contenedor de test"
+describe('Prueba en $1', () => {
+
+    test('debe $2', () => {
+        $3
+    })
+})
+endsnippet
+
+snippet test "React: estructua de test"
+test('debe $1', () => {
+    $2
+})
+endsnippet

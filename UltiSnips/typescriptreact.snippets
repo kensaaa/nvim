@@ -6,6 +6,16 @@ snippet imp "React: importacion de propTypes"
 import $2 from '$1'
 endsnippet
 
+snippet ff "Typescritp funcion de flecha" b
+const $1 = ($2):$3 => {
+    $4
+}
+endsnippet
+
+
+snippet cl "console log" b
+console.log($1)
+endsnippet
 
 snippet describe "React: describe contenedor de test"
 describe('Prueba en $1', () => {
@@ -23,7 +33,7 @@ test('debe $1', () => {
 endsnippet
 
 
-snippet raf "React: estructura del componente"
+snippet raf "React: estructura del componente" b
 const `!p snip.rv = snip.basename` = ($1) => {
 
     return (
@@ -33,7 +43,7 @@ const `!p snip.rv = snip.basename` = ($1) => {
     )
 }
 
-export default `!p snip.rv = snip.basename`
+export { `!p snip.rv = snip.basename` }
 endsnippet
 
 snippet ue "React: Hook useEffect" 

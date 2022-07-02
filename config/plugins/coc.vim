@@ -1,5 +1,5 @@
 "servidores de lenguajes
-let g:coc_global_extensions = [ 'coc-css', 'coc-html', 'coc-snippets', 'coc-tsserver', 'coc-sh', ]
+let g:coc_global_extensions = [ 'coc-css','coc-tailwindcss', 'coc-html', 'coc-snippets', 'coc-tsserver', 'coc-sh', 'coc-json', 'coc-prettier','coc-flutter' ]
 
 
 " GoTo code navigation.

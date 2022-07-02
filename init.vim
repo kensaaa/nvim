@@ -32,10 +32,16 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
-" Plug 'iamcco/c.c-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
+"me sirve para gist 
 Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'
+
+"tailwind
+
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 
 "conquer of Completation
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -47,7 +53,6 @@ set termguicolors
 set background=dark
 let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
-
 
 
 " habilita la transparencia del terminal

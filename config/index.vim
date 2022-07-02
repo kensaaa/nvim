@@ -10,6 +10,7 @@ source ~/.config/nvim/config/plugins/fzf.vim
 source ~/.config/nvim/config/plugins/coc.vim
 source ~/.config/nvim/config/plugins/easymotion.vim
 source ~/.config/nvim/config/plugins/gist.vim
+source ~/.config/nvim/config/plugins/markdown-preview.vim
 
 
 

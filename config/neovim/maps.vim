@@ -4,6 +4,7 @@ nnoremap <leader>re :source ~/.config/nvim/init.vim<CR>
 noremap <leader>w :w<CR>
 noremap <leader>q :q<CR>
 noremap <leader>Q :q!<CR>
+nmap <leader>m <Plug>MarkdownPreviewToggle
 noremap <s-e> :b #<CR>
 
 "add linea de espacio abajo
@@ -30,3 +31,6 @@ vnoremap > >gv
 
 "Para salir buscador
 nnoremap / /a<DEL>
+
+"json a typescript
+nnoremap <leader>qt :.!quicktype -l typescript --just-types --top-level 
